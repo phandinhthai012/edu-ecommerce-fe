@@ -1,4 +1,4 @@
-# Edu-Ecommerce - Nền tảng bán khóa học trực tuyến
+# Edu-Ecommerce - Frontend Online Course Platform
 
 ## Overview
 Edu-Ecommerce is a frontend-only web application built with ReactJS for browsing and discovering online courses. It utilizes Tailwind CSS for responsive and modern styling and integrates Gemini AI for a chatbot and personalized course recommendations. Key features include course listing, search, price filtering, and a favorite course list.
