@@ -2,13 +2,22 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white py-10">
+             
             <div className="container mx-auto px-4 md:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
-                        <h2 className="text-2xl font-bold mb-4">EduCommerce</h2>
+                        <h2 className="text-2xl font-bold mb-4">ECommmerce PDT</h2>
+                        <img src="/logoNew.png" alt="Logo" className="w-24 h-24 mb-4 justify-self-center" />
                         <p className="text-gray-400">
                             Nền tảng học tập trực tuyến hàng đầu, cung cấp khoá học chất lượng
                             với gợi ý thông minh từ AI.
+                            <span className="block mt-2">
+
+                                <span className="text-gray-500">
+                                    Make by phandinhthai012
+                                    </span>
+                            </span>
+                            
                         </p>
                     </div>
                     <div>
@@ -50,8 +59,8 @@ const Footer = () => {
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Liên hệ</h3>
-                        <p className="text-gray-400">Email: support@educommerce.com</p>
-                        <p className="text-gray-400">Phone: +84 123 456 789</p>
+                        <p className="text-gray-400">Email: phandinhthai012@gmail.com</p>
+                        <p className="text-gray-400">Phone: +0866952340</p>
                         <div className="flex space-x-4 mt-4 justify-content-around">
                             <a
                                 href="https://facebook.com"
