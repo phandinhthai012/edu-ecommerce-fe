@@ -20,7 +20,6 @@ export const handleChatbotInteraction = async (message) => {
 
 
         const result = await response.json();
-        console.log("Gemini API response:", result);
         if (result.candidates && result.candidates.length > 0 &&
             result.candidates[0].content && result.candidates[0].content.parts &&
             result.candidates[0].content.parts.length > 0) {

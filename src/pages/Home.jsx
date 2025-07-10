@@ -60,9 +60,7 @@ function Home() {
     }, [searchTerm, priceFilter, mockProducts]);
 
     const handleToggleFavorite = (productId) => {
-        console.log("Toggling favorite for product ID:", productId);
-        console.log("Current favorites:", favorites);
-        if (favorites[productId]) {
+        if (favorites.includes(productId)) {
             setToastMessage('Đã bỏ yêu thích khóa học');
             setToastType('success');
             setShowToast(true);
@@ -89,11 +87,9 @@ function Home() {
 
 
     const handleAISuggestions = async (loading) => {
-        console.log("Fetching AI suggestions...");
         setShowAISuggestionsLoading(loading);
         try {
             const response = await axios.get('/api/suggestions'); // Replace with your actual API endpoint
-            console.log("AI suggestions response:", response.data);
             setProductsAISuggestions(response.data);
             setFilteredProducts(response.data); // Update filtered products with AI suggestions
         } catch (error) {
