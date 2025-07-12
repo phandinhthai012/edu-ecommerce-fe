@@ -51,6 +51,7 @@ Edu-Ecommerce is a frontend-only web application built with ReactJS for browsing
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+Copyright (c) 2025 phandinhthai012
 
 ## Contact
 - Email: phandinhthai012@gmail.com
